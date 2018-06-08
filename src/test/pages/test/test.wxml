@@ -1,0 +1,15 @@
+<!--pages/test/test.wxml-->
+<import src= "../../component/ScrollAd/ScrollAd.wxml"/>
+
+<import  src= './../../component/List/List.wxml'/>
+<import  src= './../../component/List1/List1.wxml'/>
+<import  src= './../../component/List2/List2.wxml'/>
+<import  src= './../../component/List3/List3.wxml'/>
+<import  src= './../../component/List4/List4.wxml'/>
+<import  src= './../../component/List5/List5.wxml'/>
+
+<block id="text">
+    <view wx:for="{{myData}}" wx:key='{index}'>
+        <template is='{{item.name}}' data='{{item}}'/>
+    </view>
+</block>

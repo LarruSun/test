@@ -1,0 +1,5 @@
+<template name='List4'>
+    <view style="color:{{item.color}};background:{{item.background}}">
+        {{item.name}}
+    </view>
+</template>
